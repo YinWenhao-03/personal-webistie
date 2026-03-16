@@ -1,7 +1,6 @@
 <?php
 
-// 获取应用实例
-global $app;
+$app = App::getInstance();
 
 // 首页路由
 $app->get('/', function() {
