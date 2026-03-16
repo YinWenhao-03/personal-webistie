@@ -7,5 +7,5 @@ require_once __DIR__ . '/config/autoload.php';
 require_once __DIR__ . '/app/App.php';
 
 // 初始化应用
-$app = new App();
+$app = App::getInstance();
 $app->run();
